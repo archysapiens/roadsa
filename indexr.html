@@ -1079,7 +1079,7 @@
 <script>
 	$('#envioNuevo').click(function(){
 		console.log('envioNuevo');
-	   $.post('envio_nuevo.html' , { "id": 1, "pzavteid":123 },
+	   $.get('envio_nuevo.html' , { "id": 1, "pzavteid":123 },
 		  function(response,status) {
 				//alert(response);
 		   var string = response;
@@ -1114,7 +1114,7 @@
 
 	$('#operadoresNuevo').click(function(){
 		console.log('envioNuevo');
-	   $.post('operadores_nuevo.html' , { "id": 1, "pzavteid":123 },
+	   $.get('operadores_nuevo.html' , { "id": 1, "pzavteid":123 },
 		  function(response,status) {
 				//alert(response);
 		   var string = response;
@@ -1149,7 +1149,7 @@
 	
 	$('#clientesNuevo').click(function(){
 		console.log('envioNuevo');
-	   $.post('clientes_nuevo.html' , { "id": 1, "pzavteid":123 },
+	   $.get('clientes_nuevo.html' , { "id": 1, "pzavteid":123 },
 		  function(response,status) {
 				//alert(response);
 		   var string = response;
